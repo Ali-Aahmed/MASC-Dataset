@@ -31,10 +31,9 @@
 ## 📂MASC Dataset
 - **Full Dataset**: [Download from kaggle]((https://www.kaggle.com/api/v1/datasets/download/alihmed/masc-dataset))
 - **Samples**:  
-  [📸 Raw Screenshot](raw_samples/315-screenshot.jpg) | 
-  [📝 Processed JSON](raw_samples/315-screenshot.json) |
-  [📸 semantic Screenshot](raw_samples/315-semantic.png) | 
-  [📊 Features CSV](raw_samples/315-semantic.json)
+  [📸 Raw Screenshot](https://github.com/Ali-Aahmed/MASC-Dataset/blob/main/data/raw_samples/315-screenshot.jpg) | 
+  [📝 Raw JSON](https://github.com/Ali-Aahmed/MASC-Dataset/blob/main/data/raw_samples/315-screenshot.json) |
+  [📊 semantic_JSON](https://github.com/Ali-Aahmed/MASC-Dataset/blob/main/data/raw_samples/315-semantic.json)
   
 ## 📂 Dataset Structure
 The dataset is organized into multiple components, each representing a different aspect of the UI:
@@ -66,7 +65,7 @@ MASC-Dataset/
 |---------|-------------|------|
 | **Rico** | 72k Android UI screens | [Download](https://interactionmining.org/rico) |
 | **Enrico** | 1,460 curated screens | [GitHub](https://github.com/luileito/enrico) |
-| **Screen2Words** | 112k UI descriptions | [Official Page](https://github.com/google-research/google-research/tree/master/screen2words) |
+| **Screen2Words** | 112k UI descriptions | [Download](https://github.com/google-research/google-research/tree/master/screen2words) |
 
 ## 📥 Installation & Setup
 Ensure you have Python installed, then install the required dependencies:
