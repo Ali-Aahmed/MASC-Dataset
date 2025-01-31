@@ -34,7 +34,7 @@
 |**Total UI=**| **7065** |                                    |
 
 ## 📂MASC Dataset
-- **Full Dataset**: [Download from kaggle]((https://www.kaggle.com/api/v1/datasets/download/alihmed/masc-dataset))
+- **Full Dataset**: [Download from kaggle](https://www.kaggle.com/api/v1/datasets/download/alihmed/masc-dataset)
 - **Samples**:  
   [📸 Raw Screenshot](https://github.com/Ali-Aahmed/MASC-Dataset/blob/main/data/raw_samples/315-screenshot.jpg) | 
   [📝 Raw JSON](https://github.com/Ali-Aahmed/MASC-Dataset/blob/main/data/raw_samples/315-screenshot.json) |
