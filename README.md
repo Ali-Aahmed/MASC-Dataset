@@ -7,9 +7,9 @@
 
 ## 📌 Overview
 **MASC** (Mobile Application Screen Classification) is a **manually curated dataset** containing **7,065 mobile UI screens** classified into **10 distinct categories**. Designed for UI/UX research and ML applications, it enables:
-- Accurate screen type classification 📱
-- Automated UI testing 🤖
-- Design pattern analysis 🎨
+- 📱 Accurate screen type classification 
+- 🤖 Automated UI testing 
+- 🎨 Design pattern analysis 
 
 ## 🌟 Key Features
 - **Multi-modal Data**: Screenshots + JSON hierarchies + Semantic annotations
