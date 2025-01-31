@@ -1,8 +1,41 @@
 # MASC Dataset
 
 ## 📌 Overview
-MASC (Mobile Application Screen Classification) is a dataset designed for automated testing and classification of mobile application interfaces. The dataset contains structured UI representations that can be used for various machine learning tasks such as screen type classification, UI understanding, and automated test case generation.
+**MASC** (Mobile Application Screen Classification) is a **manually curated dataset** containing **7,065 mobile UI screens** classified into **10 distinct categories**. Designed for UI/UX research and ML applications, it enables:
+- Accurate screen type classification 📱
+- Automated UI testing 🤖
+- Design pattern analysis 🎨
 
+## 🌟 Key Features
+- **Multi-modal Data**: Screenshots + JSON hierarchies + Semantic annotations
+- **High Quality**: 3-step manual validation process ✅
+- **ML-Ready**: Pre-extracted feature vectors for 11 UI characteristics
+
+## Design topics overview
+
+| Topic name  | Num. UIs | Description                        |
+| :---        |     ---: | :---                               |
+| Chat        |      329 | Chat functionality                 |
+| List        |      960 | Elements organized in a column     |
+| Login       |      889 | Input fields for logging           |
+| Maps        |      500 | Geographic display                 |
+| Menu        |      557 | Items list in an overlay or aside  |
+| Profile     |      526 | Info on a user profile or product  |
+| Search      |      725 | Search engine functionality        |
+| Settings    |      629 | Controls to change app settings    |
+| Welcome     |     1084 | First-run experience               |
+| Home        |      163 | home screen                        |
+
+| Total UI=   |     7065 | Onboarding screen                  |
+
+## 📂MASC Dataset
+- **Full Dataset**: [Download from kaggle]((https://www.kaggle.com/api/v1/datasets/download/alihmed/masc-dataset))
+- **Samples**:  
+  [📸 Raw Screenshot](raw_samples/315-screenshot.jpg) | 
+  [📝 Processed JSON](raw_samples/315-screenshot.json) |
+  [📸 semantic Screenshot](raw_samples/315-semantic.png) | 
+  [📊 Features CSV](raw_samples/315-semantic.json)
+  
 ## 📂 Dataset Structure
 The dataset is organized into multiple components, each representing a different aspect of the UI:
 
@@ -10,6 +43,8 @@ The dataset is organized into multiple components, each representing a different
 - **Semantic Wireframe Images:** PNG representations of the UI layout, abstracting stylistic elements to focus on structure.
 - **UI Semantic Annotations (JSON):** A JSON file describing all UI components, including buttons, text fields, and icons.
 - **View Hierarchies (JSON):** A DOM-like structure representing parent-child relationships between UI components.
+- **MASC_Features.csv (CSV):** File containing extracted features for each UI.
+- **Labels.csv (CSV):** File containing  (Screen Id,class) each UI.
 
 ## 📁 Repository Structure
 ```
@@ -17,14 +52,22 @@ MASC-Dataset/
 ├── code/
 │   ├── masc_classification.py    # Main script for data preprocessing and classification
 │   ├── requirements.txt          # List of dependencies
-│   ├── feature_extraction.py    # ملف واحد لاستخراج الميزا
-│   ├── README.md                # توثيق داخلي للكود
+│   ├── feature_extraction.py     # Script for extracting UI features
+│   ├── README.md                 # Documentation
 ├── data/
 │   ├── raw/                      # Original, unprocessed UI data
 │   ├── processed/                 # Cleaned and structured dataset
 ├── README.md                     # Project documentation
 ├── LICENSE                        # Usage license
 ```
+
+## 📥 Accessing the Data
+### 1. Public Datasets Used
+| Dataset | Description | Link |
+|---------|-------------|------|
+| **Rico** | 72k Android UI screens | [Download](https://interactionmining.org/rico) |
+| **Enrico** | 1,460 curated screens | [GitHub](https://github.com/luileito/enrico) |
+| **Screen2Words** | 112k UI descriptions | [Official Page](https://github.com/google-research/google-research/tree/master/screen2words) |
 
 ## 📥 Installation & Setup
 Ensure you have Python installed, then install the required dependencies:
