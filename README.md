@@ -1,7 +1,7 @@
 # MASC Dataset
 
 ## 📌 Overview
-MASC (Mobile Application Screen Classification) is a dataset designed for automated testing and classification of mobile application interfaces. The dataset contains structured UI representations that can be used for various machine learning tasks such as screen type classification, UI understanding, and automated test case generation.
+MASC (Mobile Application Screen Classification) is a dataset designed for automated testing and classification of mobile application interfaces. It contains structured UI representations that can be used for various machine learning tasks such as screen type classification, UI understanding, and automated test case generation.
 
 ## 📂 Dataset Structure
 The dataset is organized into multiple components, each representing a different aspect of the UI:
@@ -17,12 +17,17 @@ MASC-Dataset/
 ├── code/
 │   ├── masc_classification.py    # Main script for data preprocessing and classification
 │   ├── requirements.txt          # List of dependencies
-│   ├── feature_extraction.py    # ملف واحد لاستخراج الميزا
-│   ├── README.md                # توثيق داخلي للكود
+│   ├── feature_extraction.py     # Script for extracting UI features
+│   ├── README.md                 # Documentation
 ├── data/
 │   ├── raw/                      # Original, unprocessed UI data
 │   ├── processed/                 # Cleaned and structured dataset
-├── README.md                     # Project documentation
+├── samples/                      # Example files from the dataset
+│   ├── sample_screenshot.jpg      # Sample UI screenshot
+│   ├── sample_wireframe.png       # Sample wireframe image
+│   ├── sample_hierarchy.json      # Sample view hierarchy
+│   ├── sample_annotations.json    # Sample UI annotations
+├── README.md                      # Project documentation
 ├── LICENSE                        # Usage license
 ```
 
@@ -50,6 +55,20 @@ seaborn==0.12.2
 nltk==3.8.1
 joblib==1.2.0
 ```
+
+## 📊 Related Datasets
+Here are some additional datasets that can complement MASC:
+1. **[Rico Dataset](https://interactionmining.org/rico)** – A large-scale mobile app UI dataset.
+2. **[Enrico Dataset](http://userinterfaces.aalto.fi/enrico/)** – A curated subset of Rico with UI topic classification.
+3. **[GUIs Dataset](https://github.com/google-research-datasets/guicommon)** – A dataset for UI understanding and automation.
+
+## 🔗 Dataset & Samples
+- **Full MASC Dataset:** [Kaggle Link](https://www.kaggle.com/datasets/alihmed/masc-dataset)
+- **Sample Files:**
+  - [Screenshot Sample](samples/sample_screenshot.jpg)
+  - [Wireframe Sample](samples/sample_wireframe.png)
+  - [Hierarchy Sample](samples/sample_hierarchy.json)
+  - [Annotations Sample](samples/sample_annotations.json)
 
 ## 📜 License
 This dataset and source code are licensed under the [MIT License](LICENSE).
