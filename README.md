@@ -1,4 +1,9 @@
-# MASC Dataset
+# 🚀 MASC Dataset: Mobile Application Screen Classification 
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14783065.svg)](https://doi.org/10.5281/zenodo.14783065)
+
+---
 
 ## 📌 Overview
 **MASC** (Mobile Application Screen Classification) is a **manually curated dataset** containing **7,065 mobile UI screens** classified into **10 distinct categories**. Designed for UI/UX research and ML applications, it enables:
@@ -25,8 +30,8 @@
 | Settings    |      629 | Controls to change app settings    |
 | Welcome     |     1084 | First-run experience               |
 | Home        |      163 | home screen                        |
-
-| **Total UI=**   |     **7065** |                                    |
+|             |          |                                    |
+|**Total UI=**| **7065** |                                    |
 
 ## 📂MASC Dataset
 - **Full Dataset**: [Download from kaggle]((https://www.kaggle.com/api/v1/datasets/download/alihmed/masc-dataset))
