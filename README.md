@@ -40,7 +40,6 @@
 The dataset is organized into multiple components, each representing a different aspect of the UI:
 
 - **Screenshot Images:** High-resolution images (JPG, 540x960 px) capturing the visual design of mobile UIs.
-- **Semantic Wireframe Images:** PNG representations of the UI layout, abstracting stylistic elements to focus on structure.
 - **UI Semantic Annotations (JSON):** A JSON file describing all UI components, including buttons, text fields, and icons.
 - **View Hierarchies (JSON):** A DOM-like structure representing parent-child relationships between UI components.
 - **MASC_Features.csv (CSV):** File containing extracted features for each UI.
@@ -93,6 +92,13 @@ seaborn==0.12.2
 nltk==3.8.1
 joblib==1.2.0
 ```
+## Citation
+If you use this dataset or code in your research, please cite it as follows:
+
+**Ahmed, A. (2025).** "MASC Dataset: A Novel Resource for Classifying Mobile Application Screens using Machine Learning." *Currently under review at The Visual Computer.*  
+Available at: [GitHub Repository](https://github.com/Ali-Aahmed/MASC-Dataset)  
+DOI: [10.5281/zenodo.14783065](https://doi.org/10.5281/zenodo.14783065)
+
 
 ## 📜 License
 This dataset and source code are licensed under the [MIT License](LICENSE).
