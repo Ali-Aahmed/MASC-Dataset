@@ -26,7 +26,7 @@
 | Welcome     |     1084 | First-run experience               |
 | Home        |      163 | home screen                        |
 
-| Total UI=   |     7065 | Onboarding screen                  |
+| **Total UI=**   |     **7065** |                                    |
 
 ## 📂MASC Dataset
 - **Full Dataset**: [Download from kaggle]((https://www.kaggle.com/api/v1/datasets/download/alihmed/masc-dataset))
