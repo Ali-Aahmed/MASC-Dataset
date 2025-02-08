@@ -81,6 +81,7 @@ pip install -r code/requirements.txt
 ## 🚀 Usage
 To preprocess data and train the classification model, run:
 ```bash
+python code/feature_extraction.py
 python code/masc_classification.py
 ```
 
