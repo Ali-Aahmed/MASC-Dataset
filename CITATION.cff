@@ -3,10 +3,9 @@ message: "If you use this dataset or code, please cite the following paper (curr
 authors:
   - family-names: Ahmed
     given-names: Ali
-    orcid: "0000-0000-0000-0000"
+    orcid: "0009-0007-6020-4477"
 title: "MASC Dataset: A Novel Resource for Classifying Mobile Application Screens using Machine Learning"
 version: "1.0"
-date-released: "2025-01-31"
 repository-code: "https://github.com/username/MASC-Dataset"
 doi: "10.5281/zenodo.14783065"
 preferred-citation:

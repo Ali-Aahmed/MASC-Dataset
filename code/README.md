@@ -22,3 +22,8 @@ Run the following commands to extract features and classify UI screens:
 ```bash
 python code/feature_extraction.py
 python code/masc_classification.py
+
+## 🚀 Notes
+  - feature_extraction.py
+  - masc_classification.py
+These files will be made publicly available after publication.
