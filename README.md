@@ -1,10 +1,15 @@
-# MASC Dataset
+# 🚀 MASC Dataset: Mobile Application Screen Classification 
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14783065.svg)](https://doi.org/10.5281/zenodo.14783065)
+
+---
 
 ## 📌 Overview
 **MASC** (Mobile Application Screen Classification) is a **manually curated dataset** containing **7,065 mobile UI screens** classified into **10 distinct categories**. Designed for UI/UX research and ML applications, it enables:
-- Accurate screen type classification 📱
-- Automated UI testing 🤖
-- Design pattern analysis 🎨
+- 📱 Accurate screen type classification 
+- 🤖 Automated UI testing 
+- 🎨 Design pattern analysis 
 
 ## 🌟 Key Features
 - **Multi-modal Data**: Screenshots + JSON hierarchies + Semantic annotations
@@ -25,16 +30,15 @@
 | Settings    |      629 | Controls to change app settings    |
 | Welcome     |     1084 | First-run experience               |
 | Home        |      163 | home screen                        |
-
-| Total UI=   |     7065 | Onboarding screen                  |
+|             |          |                                    |
+|**Total UI=**| **7065** |                                    |
 
 ## 📂MASC Dataset
-- **Full Dataset**: [Download from kaggle]((https://www.kaggle.com/api/v1/datasets/download/alihmed/masc-dataset))
+- **Full Dataset**: [Download from kaggle](https://www.kaggle.com/api/v1/datasets/download/alihmed/masc-dataset)
 - **Samples**:  
-  [📸 Raw Screenshot](raw_samples/315-screenshot.jpg) | 
-  [📝 Processed JSON](raw_samples/315-screenshot.json) |
-  [📸 semantic Screenshot](raw_samples/315-semantic.png) | 
-  [📊 Features CSV](raw_samples/315-semantic.json)
+  [📸 Raw Screenshot](https://github.com/Ali-Aahmed/MASC-Dataset/blob/main/data/raw_samples/315-screenshot.jpg) | 
+  [📝 Raw JSON](https://github.com/Ali-Aahmed/MASC-Dataset/blob/main/data/raw_samples/315-screenshot.json) |
+  [📊 semantic_JSON](https://github.com/Ali-Aahmed/MASC-Dataset/blob/main/data/raw_samples/315-semantic.json)
   
 ## 📂 Dataset Structure
 The dataset is organized into multiple components, each representing a different aspect of the UI:
@@ -66,7 +70,7 @@ MASC-Dataset/
 |---------|-------------|------|
 | **Rico** | 72k Android UI screens | [Download](https://interactionmining.org/rico) |
 | **Enrico** | 1,460 curated screens | [GitHub](https://github.com/luileito/enrico) |
-| **Screen2Words** | 112k UI descriptions | [Official Page](https://github.com/google-research/google-research/tree/master/screen2words) |
+| **Screen2Words** | 112k UI descriptions | [Download](https://github.com/google-research/google-research/tree/master/screen2words) |
 
 ## 📥 Installation & Setup
 Ensure you have Python installed, then install the required dependencies:
@@ -77,6 +81,7 @@ pip install -r code/requirements.txt
 ## 🚀 Usage
 To preprocess data and train the classification model, run:
 ```bash
+python code/feature_extraction.py
 python code/masc_classification.py
 ```
 
@@ -95,7 +100,7 @@ joblib==1.2.0
 ## Citation
 If you use this dataset or code in your research, please cite it as follows:
 
-**Ahmed, A. (2025).** "MASC Dataset: A Novel Resource for Classifying Mobile Application Screens using Machine Learning." *Currently under review at The Visual Computer.*  
+**Ahmed, A. (2025).** "MASC Dataset: A Novel Resource for Classifying Mobile Application Screens using Machine Learning."  
 Available at: [GitHub Repository](https://github.com/Ali-Aahmed/MASC-Dataset)  
 DOI: [10.5281/zenodo.14783065](https://doi.org/10.5281/zenodo.14783065)
 
