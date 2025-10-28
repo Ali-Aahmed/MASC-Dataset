@@ -100,9 +100,7 @@ joblib==1.2.0
 ## Citation
 If you use this dataset or code in your research, please cite it as follows:
 
-**Ahmed, A. (2025).** "MASC Dataset: A Novel Resource for Classifying Mobile Application Screens using Machine Learning."  
-Available at: [GitHub Repository](https://github.com/Ali-Aahmed/MASC-Dataset)  
-DOI: [10.5281/zenodo.14783065](https://doi.org/10.5281/zenodo.14783065)
+**Girgis, M. R., Zaki, A. M., Elgeldawi, E., Abdallah, M. M., & Ahmed, A. A. (2025).** MASC: A Dataset for the Development and Classification of Mobile Applications Screens. International Journal of Computing, 24(3), 460-473. Retrieved from https://computingonline.net/computing/article/view/4183
 
 
 ## 📜 License
